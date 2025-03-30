@@ -1,6 +1,6 @@
 Product Management App
-📌 Overview
-The Product Management App is a full-stack web application that allows users to manage products efficiently. Users can add, edit, delete, and search for products with filtering options such as category, price, and rating.
+📌 Overview The Product Management App is a full-stack web application that allows users to manage products efficiently. Users can add, edit, delete, and search for products with filtering options such as category, price, and rating.
+
 🚀 Tech Stack
 Frontend:
 * React (Vite for fast builds)
@@ -22,14 +22,15 @@ Tools & Deployment:
 
 🛠️ Setup Instructions
 1️⃣ Clone the Repository
- git clone https://github.com/your-username/product-management-app.git
- cd productmanagement
+
+git clone https://github.com/your-username/product-management-app.git
+cd productmanagement
 2️⃣ Install Dependencies
 For Backend:
- npm install
+npm install
 For Frontend:
- cd client
- npm install
+cd client
+npm install
 3️⃣ Set Up Environment Variables
 Create a .env file inside the backend directory and add the following:
 PORT=8081
@@ -37,10 +38,10 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 4️⃣ Run the Application
 Start Backend Server:
- npm start
+npm start
 Start Frontend:
- cd client
- npm run dev
+cd client
+npm run dev
 The application will be available at http://localhost:5173 (or another port if configured).
 
 🔑 Features
